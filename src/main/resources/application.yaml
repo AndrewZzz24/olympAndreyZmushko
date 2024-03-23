@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: olympAndreyZmushko
+
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/olympAndreyZmushko
+    username: postgres
+    password: qwe123A
+    driverClassName: org.postgresql.Driver
